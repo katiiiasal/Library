@@ -1,15 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
 package Backend;
 
-/**
- *
- * @author heiva
- */
-public class Books {
+public class Book {
     
     // Attributes
     
@@ -22,10 +13,10 @@ public class Books {
     
     // Constructor
     
-    public Books(){
+    public Book(){
     }
     
-    public Books(String title, int pages, int chapters, String summary, String author){
+    public Book(String title, int pages, int chapters, String summary, String author){
         this.title = title;
         this.pages = pages;
         this.chapters = chapters;
